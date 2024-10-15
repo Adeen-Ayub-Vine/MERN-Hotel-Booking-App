@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "module": "commonjs",  // Ensure this is set to 'commonjs'
+      "target": "ESNext",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "strict": false,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
