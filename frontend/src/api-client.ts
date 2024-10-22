@@ -1,11 +1,6 @@
+import { HotelType } from "../../backend/src/Types";
 import { RegisterFormData } from "./Pages/Register";
 import { SignInFormData } from "./Pages/SignIn";
-// import {
-//   HotelSearchResponse,
-//   HotelType,
-//   PaymentIntentResponse,
-//   UserType,
-// } from "../../backend/src/shared/types";
 // import { BookingFormData } from "./forms/BookingForm/BookingForm";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
@@ -91,17 +86,17 @@ export const addMyHotel = async (hotelFormData: FormData) => {
   return response.json();
 };
 
-// export const fetchMyHotels = async (): Promise<HotelType[]> => {
-//   const response = await fetch(`${API_BASE_URL}/api/my-hotels`, {
-//     credentials: "include",
-//   });
+export const fetchMyHotels = async (): Promise<HotelType[]> => {
+  const response = await fetch(`${API_BASE_URL}/api/my-hotels`, {
+    credentials: "include",
+  });
 
-//   if (!response.ok) {
-//     throw new Error("Error fetching hotels");
-//   }
+  if (!response.ok) {
+    throw new Error("Error fetching hotels");
+  }
 
-//   return response.json();
-// };
+  return response.json();
+};
 
 // export const fetchMyHotelById = async (hotelId: string): Promise<HotelType> => {
 //   const response = await fetch(`${API_BASE_URL}/api/my-hotels/${hotelId}`, {
