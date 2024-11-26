@@ -20,18 +20,18 @@ This is a simple hotel booking app I developed by following [Chris Blakely's tut
   Install dependencies: npm install.
   Start the server: npm start.
 
-3.Frontend:
+3. Frontend:
   Open a new terminal and navigate to the frontend directory.
   Install dependencies: npm install.
   Start the frontend application: npm run dev.
   The application should now be running on http://localhost:5173 or something a similar url.
 
 ## Technologies Used
-  Frontend: React
-  Testing: Playwright
-  Payment: Stripe API
-  Cloudinary: Image Upload
-  Styling: Tailwind CSS
+  - Frontend: React
+  - Testing: Playwright
+  - Payment: Stripe API
+  - Cloudinary: Image Upload
+  - Styling: Tailwind CSS
   
 ## Credits
   This project is based on Chris Blakely's YouTube tutorial. A big thanks to Chris for the amazing content and guidance!
