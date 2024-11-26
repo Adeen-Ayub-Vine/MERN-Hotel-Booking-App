@@ -32,6 +32,7 @@ This is a simple hotel booking app I developed by following [Chris Blakely's tut
   - Payment: Stripe API
   - Cloudinary: Image Upload
   - Styling: Tailwind CSS
+  - Database: Mongodb
   
 ## Credits
   This project is based on Chris Blakely's YouTube tutorial. A big thanks to Chris for the amazing content and guidance!
