@@ -16,15 +16,15 @@ This is a simple hotel booking app I developed by following [Chris Blakely's tut
    git clone https://github.com/Adeen-Ayub-Vine/MERN-Hotel-Booking-App.git
 
 2. Backend:
-  Navigate to the backend directory.
-  Install dependencies: npm install.
-  Start the server: npm start.
+  - Navigate to the backend directory.
+  - Install dependencies: npm install.
+  - Start the server: npm start.
 
 3. Frontend:
-  Open a new terminal and navigate to the frontend directory.
-  Install dependencies: npm install.
-  Start the frontend application: npm run dev.
-  The application should now be running on http://localhost:5173 or something a similar url.
+  - Open a new terminal and navigate to the frontend directory.
+  - Install dependencies: npm install.
+  - Start the frontend application: npm run dev.
+  - The application should now be running on http://localhost:5173 or something a similar url.
 
 ## Technologies Used
   - Frontend: React
